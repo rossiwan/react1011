@@ -24,6 +24,7 @@ function TodoApp() {
     const deleteTask = (index: number) => { 
 
   // เก็บรายการที่ index ไม่ตรงกับอันที่ต้องการลบ 
+        <button onClick={() => deleteTask(index)}>ลบ</button>
 
         const newTasks = tasks.filter((_, i) => i !== index); 
 

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import ButtonAdd from './components/ButtonAdd';
-import Headdertext from './components/Headdertext';
+
 
 // Type ของสมาชิก
 type Member = { 
@@ -30,7 +30,7 @@ function App() {
   // เก็บไว้ใช้ทีหลัง → ใส่ _ ป้องกัน TS ฟ้อง
   const [_name, _setName] = useState('CSMJU');
   const [_message, _setMessage] = useState('สอบเสร็จแล้ว สบายใจจัง');
-  const _status = false;
+
 
   return (
     <>
