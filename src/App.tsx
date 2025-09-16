@@ -27,9 +27,10 @@ const list_MEMBERS: Member[] = [
 ];
 
 function App() {
-  const [name, setName] = useState('CSMJU');
-  const [message, setMessage] = useState('สอบเสร็จแล้ว สบายใจจัง');
-  const status = false;
+  // เก็บไว้ใช้ทีหลัง → ใส่ _ ป้องกัน TS ฟ้อง
+  const [_name, _setName] = useState('CSMJU');
+  const [_message, _setMessage] = useState('สอบเสร็จแล้ว สบายใจจัง');
+  const _status = false;
 
   return (
     <>
@@ -42,10 +43,12 @@ function App() {
         ))}
       </ul>
 
+      {/*
       <div>
-        <Headdertext title="Header Computer Science" status={false} />
-        <Headdertext title="Header Maejo University"  status={true} />
+        <Headdertext title="Header Computer Science" status={false} txtsize="lg" />
+        <Headdertext title="Header Maejo University"  status={true} txtsize="md" />
       </div>
+      */}
 
       <div className="App">
         <h1>Vite + React</h1>
@@ -60,4 +63,3 @@ function App() {
 }
 
 export default App;
-
