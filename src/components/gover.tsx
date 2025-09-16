@@ -12,7 +12,7 @@ export default function GovernmentApp() {
     {
       name: "อนุทิน ชาญวีรกูล",
       position: "นายกรัฐมนตรี",
-      photoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Anutin_Charnvirakul_in_September_2025_%28cropped%29.png/800px-Anutin_Charnvirakul_in_September_2025_%28cropped%29.png",
+      photoUrl: "https://static.thairath.co.th/media/dFQROr7oWzulq5Fa6rV7mX2Itn0u25ZCEexa5Fd9ANw0jkrGpkkMvrGwVxVuYJAU0D1.webp",
       career: [
         "อดีตรัฐมนตรีว่าการกระทรวงสาธารณสุข (2562–2566)",
         "อดีตรัฐมนตรีช่วยว่าการกระทรวงพาณิชย์",
@@ -31,7 +31,7 @@ export default function GovernmentApp() {
     {
       name: "ศิษฐศักดิ์ พวงเกตุแก้ว",
       position: "รัฐมนตรีว่าการกระทรวงการต่างประเทศ",
-      photoUrl: "https://resource.nationtv.tv/uploads/images/md/2025/09/9xk380ya42RhxR0PV3yH.webp?x-image-process=style/lg-webp",
+      photoUrl: "https://www.matichon.co.th/wp-content/uploads/2025/09/S__148758645-728.jpg",
       career: [
         "อดีตปลัดกระทรวงการต่างประเทศ",
         "อดีตเอกอัครราชทูตไทยประจำญี่ปุ่น",
@@ -40,7 +40,7 @@ export default function GovernmentApp() {
     {
       name: "อรรถพล ฤกษ์พิบูลย์",
       position: "รัฐมนตรีว่าการกระทรวงพลังงาน",
-      photoUrl: "https://www.nstda.or.th/home/wp-content/uploads/2023/11/20210807_100734323_iOS.jpg",
+      photoUrl: "https://www.prachachat.net/wp-content/uploads/2025/09/Cover-photo-52-728x485.jpg",
       career: [
         "อดีต CEO บริษัท ปตท. จำกัด (มหาชน)",
         "ทำงานในสายพลังงานกว่า 30 ปี",
